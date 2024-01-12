@@ -1,0 +1,80 @@
+.logo {
+  width: 100px;
+}
+
+.avatar {
+  width: 25px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.rimp {
+  height: 40px;
+}
+
+@media screen and (max-width: 651px) {
+  .rimp {
+    border: none;
+  }
+}
+
+.logo2 {
+  width: 200px;
+}
+
+form h5 {
+  width: 200px;
+}
+
+.avatar2 {
+  width: 150px;
+  height: 150px;
+}
+
+.myh2 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.myh5 {
+  font-weight: normal;
+  padding: 10px;
+}
+
+.footer1 {
+  font-size: 10px;
+}
+
+.form-check {
+  &:hover {
+    cursor: pointer;
+  }
+  label {
+    line-height: 39px;
+    font-size: 0.8em;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  input {
+    width: 30px;
+    height: 30px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.container-relative {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.overlay-icon {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translate(-50%, 95%);
+}
